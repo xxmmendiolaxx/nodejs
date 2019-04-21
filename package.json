@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-seminar",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --respawn ./src1/index.ts"
+  },
+  "author": "mmendiola",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "development": "0.0.6",
+    "express": "^4.16.4",
+    "typescript": "^3.4.3"
+  }
+}
